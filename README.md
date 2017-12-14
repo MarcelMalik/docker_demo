@@ -1,4 +1,4 @@
-# Demo 1
+# Demo 1 - Images & Container
 
 ## Build & Run echo1
 ```
@@ -22,7 +22,7 @@ docker ps
 docker ps -a
 ```
 
-### Docker Resistry - Login and Push
+<!-- ### Docker Resistry - Login and Push
 ```
 docker login
 docker tag echo:01 baselbmz/echo:01
@@ -37,6 +37,7 @@ docker rm $(docker ps -aq)
 docker image ls
 docker image rm echo:02 registry.visual-meta.com/docker_meetup/echo:02
 ```
+-->
 
 # Demo 2
 
@@ -137,7 +138,7 @@ docker service logs hello
 docker service rm hello
 ```
 
-
+<!--
 ###  Docker Swarm - Create a Stack
 ```
 docker stack deploy
@@ -148,3 +149,4 @@ docker stack ls
 docker stack services app
 docker stack rm app
 ```
+-->

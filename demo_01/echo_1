@@ -1,2 +1,2 @@
 FROM alpine:latest
-CMD echo "Welcome to Visual Meta"
+CMD echo "Welcome to React to Docker an der Beuth HS"
